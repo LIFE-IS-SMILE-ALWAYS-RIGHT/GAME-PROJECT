@@ -347,7 +347,6 @@ while (!game_over && !game_won) {
         SDL_Delay((1000 / 60) - timerFPS);
     }
 }
-waitUntilKeyPressed();
 
 SDL_DestroyTexture(background);
 TTF_CloseFont(font);
